@@ -11,7 +11,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/readpref"
 )
 
-const ConnectionString = "mongodb://localhost:27017"
+const ConnectionString = "mongodb+srv://vigneshk:1234@banking.obgwcv6.mongodb.net/?retryWrites=true&w=majority"
 const Port = ":8080"
 const DatabaseName = "Profile"
 var ProfileCollection *mongo.Collection
